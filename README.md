@@ -1,6 +1,6 @@
 # AWS ECS App
 
-This architecture provides an easy way to deploy scalable apps using AWS Elastic Container Service.
+A scalable architecture to deploy containerized apps into AWS Elastic Container Service using CDKTF.
 
 ## Highlights
 
