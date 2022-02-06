@@ -95,7 +95,7 @@ Resources:
       Properties:
         TaskDefinition: "${ecs.taskDefinition.arn}"
         LoadBalancerInfo:
-          ContainerName: "app"
+          ContainerName: "${prefixName('app')}"
           ContainerPort: ${config.container.port}
         PlatformVersion: "LATEST"`,
 				},
