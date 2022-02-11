@@ -16,6 +16,10 @@ A scalable architecture to deploy containerized apps into AWS Elastic Container 
 - Slack notifications
 - Backup plan for EFS files into a separate region
 
+## Diagram
+
+![cdktf AWS ECS App Architecture](assets/images/diagram.png?raw=true)
+
 ## Pre Requisites
 
 1. [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli)
